@@ -2,6 +2,7 @@
 layout: page
 title: CV
 ---
+
 ### EXPERIENCE
 
 #### Jan. 2015 - present: Freelance Software developer
