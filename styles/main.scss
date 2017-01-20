@@ -1,0 +1,171 @@
+---
+---
+@import "_var";
+
+#top-header {
+  height: 11.1vh;
+  padding: 0;
+}
+
+nav {
+  font-size: 15px;
+}
+
+#logo {
+  margin: 0 0 0 -8.5em;
+  float: left;
+  font-family: $font-heading;
+  padding: 0.5em 0.5em;
+  font-size: 1.25em;
+  line-height: 1;
+  color: $color-medium;
+  background-color: $color-verylight;
+}
+
+#logo strong {
+  font-size: 1em;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  font-weight: initial;
+  border-bottom: 1px solid $color-medium;
+}
+
+#logo small {
+  font-weight: lighter;
+  font-family: $font-body;
+  font-size: 0.69em;
+}
+
+#nav-top {
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  text-align: left;
+  font-size: 1.15em;
+  list-style-type: none;
+  height: 100%;
+}
+
+#nav-item {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: $color-medium;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.75em;
+  letter-spacing: 0.1em;
+  padding: 0 0.5em;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Main */
+.wrapped-image {
+  display: inline-block;
+  float: left;
+  padding: 0;
+  margin: 0 0 0 -11em;
+}
+
+.wrapped-image > img {
+  width: 10em !important;
+}
+
+.wrapped-image + p {
+  padding: 0;
+}
+
+main {
+}
+
+article, #top-header {
+  padding: 0 11em;
+}
+
+p {
+  color: $color-dark;
+  margin: 0;
+  padding: 0;
+  hyphens: auto;
+}
+
+p + p {
+  padding: 1em 0 0 0;
+}
+
+h2 {
+  border-top: 1px solid $color-medium;
+  font-size: 1.15em;
+  display: inline-block;
+  padding: 1em 0 1em 0;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-family: $font-heading;
+  color: $color-medium;
+}
+
+/* Global */
+body {
+  font-family: $font-body;
+  font-weight: 100;
+  line-height: 1.35;
+  font-size: 20px;
+  min-width: 15em;
+  color: $color-medium;
+  margin: 0 auto;
+  width: 52em;
+  padding: 0 0;
+}
+
+header + h3 {
+  padding-top: 0;
+  margin: 0; }
+
+h3 {
+  font-size: 1em;
+  padding-left: 2em;
+  letter-spacing: 0.1em;
+  font-weight: normal;
+  text-transform: uppercase; }
+
+h4 {
+  padding-left: 4em;
+  font-size: 1em;
+  font-weight: bold;
+  color: #1E2022; }
+
+/* Media */
+@media only screen and (max-width: 69em) {
+  body {
+    font-size: 19px;
+  }
+}
+
+@media only screen and (max-width: 66em) {
+  body {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 63em) {
+  body {
+    font-size: 17px;
+  }
+}
+
+@media only screen and (max-width: 60em) {
+  body {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 57em) {
+  body {
+    font-size: 15px;
+  }
+}
