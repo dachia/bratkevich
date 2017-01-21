@@ -28,7 +28,7 @@ body > * {
   margin-right: 3.5em; }
 
 header {
-  height: 11.1vh; }
+  min-height: 11.1vh; }
 
 article > header {
   height: auto; }
