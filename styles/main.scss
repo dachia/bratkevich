@@ -117,14 +117,17 @@ a:hover {
 #logo {
   line-height: 1;
   display: inline-block;
-  text-align: right;
+  text-align: center;
   margin: 0;
-  padding: $body-margin-small;
+  padding: 0;
+  width: 67%;
+  height: 11.1vh;
   color: $color-medium;
   background-color: $color-verylight;
 }
 
 #logo strong {
+  padding-top: $body-margin-big;
   display: block;
   font-size: 1.05rem;
   text-transform: uppercase;
