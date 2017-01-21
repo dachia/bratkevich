@@ -2,26 +2,14 @@
 ---
 @import "_var";
 
-
 * {
   padding: 0;
   margin: 0;
 }
 
-.aside-container {
-  position: absolute;
-  left: 0;
-  width: $body-margin-left - $body-margin-big;
-  text-align: right;
-}
-
-.aside-container > * {
-  max-width: $body-margin-left - $body-margin-big;
-}
-
-
 html {
   font-size: $font-size;
+  height: 100%;
 }
 
 body {
@@ -29,11 +17,13 @@ body {
   text-rendering: optimizeLegibility;
   font-feature-settings: "liga" 1;
   width: 100%;
+  min-height: 100%;
   max-width: $body-max-width;
   color: $color-dark;
   overflow-y: scroll;
   position: relative;
   font-feature-settings: 'kern' 1;
+  z-index: -10000;
 }
 
 body, p {
@@ -54,13 +44,10 @@ article > header {
   height: auto;
 }
 
-img {
-
-}
-
 p {
   margin-bottom: $body-margin-big;
   line-height: 1.35;
+  text-align: justify;
 }
 
 h1 > span {
@@ -83,6 +70,48 @@ p + h4, p + h3, p + h2, p + h1 {
 
 h2 {
   font-size: 1.3rem;
+}
+
+h1, h1 > span {
+  padding-top: $body-margin-big;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: $font-heading;
+  font-weight: normal;
+  margin-bottom: 0.4rem;
+}
+
+p + h4, p + h3, p + h2, p + h1 {
+  margin-top: $heading-paragraph-margin;
+}
+
+h2 {
+  font-size: 1.3rem;
+}
+
+a {
+  color: $color-medium;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.85em;
+  letter-spacing: 0.05em;
+  padding: $body-margin-small 0;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.aside-container {
+  position: absolute;
+  left: 0;
+  width: $body-margin-left - $body-margin-big;
+  text-align: right;
+}
+
+.aside-container > * {
+  max-width: $body-margin-left - $body-margin-big;
 }
 
 #logo {
@@ -109,56 +138,91 @@ h2 {
   font-size: 0.5rem;
 }
 
-
-a {
-  color: $color-medium;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 0.85em;
-  letter-spacing: 0.05em;
-  padding: $body-margin-small;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
 #nav-top {
   display: inline-block;
   text-align: left;
   list-style-type: none;
+  font-size: 0.85rem;
   margin: $body-margin-small 0;
   height: 100%;
 }
 
+#nav-top > * {
+  padding: $body-margin-small $body-margin-small $body-margin-small 0;
+}
 
 /* Media */
-@media only screen and (max-width: 69em) {
-  body > * {
-    font-size: 19px;
+
+$steps: ($font-size - $font-size-min)/ 1px;
+
+@media all {
+  body {
+    font-size: $font-size;
   }
 }
 
-@media only screen and (max-width: 66em) {
-  body > * {
-    font-size: 18px;
+@for $i from 1 through $steps {
+  $current-screen-width: $screen-shrink-width - ($i * $screen-shrink-step);
+  $current-font-size: $font-size - $i;
+  @media all and (max-width: $current-screen-width) {
+    body {
+      font-size: $current-font-size;
+    }
   }
 }
 
-@media only screen and (max-width: 63em) {
+@media all and (max-width: $screen-shrink-width - (($steps + 4) * $screen-shrink-step)) {
   body > * {
-    font-size: 17px;
+    margin-left: $body-margin-right + 0.5em;
+    margin-right: $body-margin-right;
+  }
+  
+  .aside-container {
+    position: relative;
+    width: auto;
+    text-align: left;
+  }
+
+  .aside-container > * {
+    max-width: 100%;
+  }
+
+  #logo {
+    display: block;
+    text-align: center;
+  }
+
+  header {
+    height: auto;
   }
 }
 
-@media only screen and (max-width: 60em) {
-  body > * {
-    font-size: 16px;
-  }
-}
-
-@media only screen and (max-width: 57em) {
-  body > * {
-    font-size: 15px;
-  }
-}
+//@media only screen and (max-width: 69em) {
+//  body > * {
+//    font-size: 19px;
+//  }
+//}
+//
+//@media only screen and (max-width: 66em) {
+//  body > * {
+//    font-size: 18px;
+//  }
+//}
+//
+//@media only screen and (max-width: 63em) {
+//  body > * {
+//    font-size: 17px;
+//  }
+//}
+//
+//@media only screen and (max-width: 60em) {
+//  body > * {
+//    font-size: 16px;
+//  }
+//}
+//
+//@media only screen and (max-width: 57em) {
+//  body > * {
+//    font-size: 15px;
+//  }
+//}

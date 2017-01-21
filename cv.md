@@ -5,31 +5,39 @@ title: CV
 
 ## Experience
 
-### Jan. 2015 - present: Freelance Software developer
+10+ years.
 
-I am doing: REST web services; mobile applications on Android / iOS and mobile first web applications; server provisioning; application / database scaling; process automation. 
+### Jan. 2015&ndash;present: Freelance Software developer
 
-Tools I use every day: Python + Flask / Django / Django REST, JS + AngularJS / Ionic, Java, MongoDB, MySql, SaltStack, ElasticSearch, Celery, Vagrant, Git + GitHub, 
-CSS + Sass, Fabric, Linux.
+Development of REST web services; mobile applications on Android and iOS; mobile first web applications; server provisioning; application and database performance tuning; process automation. 
 
-### Feb. 2013 - Dec. 2014: Tech lead; LTD Nabaka
+Tools: Python + Flask / Django / Django REST / Celery / Fabric; JS + AngularJS / Ionic; Java; MongoDB; MySql; SaltStack; AWS + EC2 / SNS / SQS / ElasticBeanstalk / Route53 / CloudFront / 
+Elastic Load Balancing / ElasticSearch; CSS + Sass; Git + GitHub; Vagrant; Linux; TDD.
 
-My main responsibilities were: guiding 2 software development teams; managing the development process; DevOp work: development/testing/deployment process automation, server management and provisioning; backend/frontend development. 
+### Feb. 2013&ndash;Dec. 2014: Tech lead; LTD Nabaka
 
-I used on a daily basis: Python + web.py / Flask, JS + AngularJS, TDD/BDD, Scrum, AWS, CSS + Sass, SaltStack, Docker, Vagrant, Linux.
+Main responsibilities: guiding two software development teams; managing the development process; DevOp work: development, testing and deployment process automation; server management and provisioning; backend and frontend development. 
 
-### July 2012 - Feb. 2013: Python developer; Delivery Hero Holding
+Tools: Python + web.py / Flask; JS + AngularJS; TDD/BDD; Scrum; AWS Services; CSS + Sass; SaltStack; Docker; Vagrant; Linux.
 
-Working as a scrum team member, mostly developing web application using Python + Django / Flask, PostgreSQL, TDD, and some JavaScript, Linux. 
+### July 2012&ndash;Feb. 2013: Python developer; Delivery Hero Holding
 
-### Sep. 2011 - July 2012: Freelance Software developer
+Working as a scrum team member, mostly doing backend and a little frontend.
 
-I was developing and managing a multi-domain web application using Python + Django, PostgreSQL, JS + jQuery, CSS, Linux.
+Tools: Python + Django / Flask; PostgreSQL; TDD; JavaScript; Linux. 
 
-### 2006 - Aug. 2011: Junior/Senior software developer; SE Agricultural Information and Rural Business Centre
+### Sep. 2011&ndash;July 2012: Freelance Software developer
 
-Web application development using Oracle PL/SQL, .NET + MVC, JS + jQuery. Database performance tuning and data warehouse design.
+Developing and managing a multi-domain web application.
+
+Tools: Python + Django; PostgreSQL; JS + jQuery; CSS; Linux.
+
+### 2006&ndash;Aug. 2011: Junior/Senior software developer; SE Agricultural Information and Rural Business Centre
+
+Web application and database development; Database performance tuning and data warehouse design.
+
+Tools: Oracle 9i + PL/SQL; .NET + MVC; JS + jQuery. 
 
 ## Education
 
-### 2005 - 2010: Vilnius University; Bachelor of Software Engineering
+### 2005&ndash;2010: Vilnius University; Bachelor of Software Engineering
