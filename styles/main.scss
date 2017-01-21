@@ -176,7 +176,7 @@ $steps: ($font-size - $font-size-min)/ 1px;
 
 @media all and (max-width: $screen-shrink-width - (($steps + 4) * $screen-shrink-step)) {
   body > * {
-    margin-left: $body-margin-right + 0.5em;
+    margin-left: $body-margin-right;
     margin-right: $body-margin-right;
   }
   

@@ -142,7 +142,7 @@ a:hover {
     font-size: 15px; } }
 @media all and (max-width: 650px) {
   body > * {
-    margin-left: 4em;
+    margin-left: 3.5em;
     margin-right: 3.5em; }
 
   .aside-container {
