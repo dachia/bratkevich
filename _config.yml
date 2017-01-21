@@ -23,7 +23,6 @@ encoding: utf-8
 host: 192.168.33.10
 
 # Build settings
-
 markdown: kramdown
 theme: minima
 exclude:
