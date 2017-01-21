@@ -17,8 +17,9 @@ GEM
       pathutil (~> 0.9)
       rouge (~> 1.7)
       safe_yaml (~> 1.0)
-    jekyll-feed (0.8.0)
-      jekyll (~> 3.3)
+    jekyll-hyphenate_filter (0.0.2)
+      nokogiri (~> 1.6)
+      text-hyphen (~> 1.4)
     jekyll-sass-converter (1.5.0)
       sass (~> 3.4)
     jekyll-watch (1.5.0)
@@ -29,8 +30,11 @@ GEM
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
     mercenary (0.3.6)
+    mini_portile2 (2.1.0)
     minima (2.1.0)
       jekyll (~> 3.3)
+    nokogiri (1.7.0.1)
+      mini_portile2 (~> 2.1.0)
     pathutil (0.14.0)
       forwardable-extended (~> 2.6)
     public_suffix (2.0.5)
@@ -40,13 +44,14 @@ GEM
     rouge (1.11.1)
     safe_yaml (1.0.4)
     sass (3.4.23)
+    text-hyphen (1.4.1)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   jekyll (= 3.3.1)
-  jekyll-feed (~> 0.6)
+  jekyll-hyphenate_filter
   minima (~> 2.0)
 
 RUBY VERSION

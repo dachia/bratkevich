@@ -10,7 +10,7 @@ Vagrant.configure("2") do |config|
     sudo apt-get install -y software-properties-common
     sudo apt-add-repository ppa:brightbox/ruby-ng
     sudo apt-get update
-    sudo apt-get install -y ruby2.2 ruby2.2-dev
+    sudo apt-get install -y ruby2.2 ruby2.2-dev zlib1g-dev
     gem install jekyll bundler
   SHELL
 end

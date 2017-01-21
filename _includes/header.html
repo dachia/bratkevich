@@ -1,10 +1,11 @@
-<header id="top-header">
+<header>
 	<nav>
-		<h1 id="logo">
-			<strong>{{ site.data.logo.main }}</strong>
-			<br>
-			<small>{{ site.data.logo.sub }}</small>
-		</h1>
+		<div class="aside-container">
+			<h1 id="logo">
+				<strong>{{ site.data.logo.main }}</strong>
+				<small>{{ site.data.logo.sub }}</small>
+			</h1>
+		</div>
 		<ul id="nav-top">
 			{% for page in site.pages %}
 			{% if page.title %}
@@ -13,6 +14,7 @@
 				{% endif %}
 				{% endfor %}
 		</ul>
+
 	</nav>
 </header>
 
