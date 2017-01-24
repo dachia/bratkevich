@@ -3,7 +3,7 @@ layout: home
 title: Freelance developer
 ---
 
-![en face, greyscale picture of bearded freelance developer]( {{ "/assets/photo-min.jpg" | relative_url }} 'My picture')
+![en face, greyscale picture of bearded freelance developer]( {{ "/assets/photo-min.jpg" | relative_url }} 'En face, greyscale picture of bearded freelance developer')
 {: .aside-container}
 
 Hello! My name is Arthur Bartkevich and I am a freelance software developer with more than 10 years of experience in the industry. 
