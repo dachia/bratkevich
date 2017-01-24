@@ -103,7 +103,7 @@ a:hover {
 #logo strong {
   padding-top: 1em;
   display: block;
-  font-size: 1.05rem;
+  font-size: 1.1rem;
   text-transform: uppercase;
   font-family: "Oswald", sans-serif; }
 
@@ -111,18 +111,19 @@ a:hover {
   display: block;
   font-weight: lighter;
   font-family: "Domine", serif;
-  font-size: 0.5rem; }
+  font-size: 0.6rem; }
 
 #nav-top {
+  max-height: 11.1vh;
   display: inline-block;
   text-align: left;
   list-style-type: none;
-  font-size: 0.85rem;
+  font-size: 1rem;
   margin: 0.4em 0;
   height: 100%; }
 
 #nav-top > * {
-  padding: 0.4em 0.4em 0.4em 0; }
+  padding: 0.2em 0.2em 0.2em 0; }
 
 /* Media */
 @media all {

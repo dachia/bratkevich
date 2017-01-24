@@ -129,7 +129,7 @@ a:hover {
 #logo strong {
   padding-top: $body-margin-big;
   display: block;
-  font-size: 1.05rem;
+  font-size: 1.1rem;
   text-transform: uppercase;
   font-family: $font-heading;
 }
@@ -138,20 +138,21 @@ a:hover {
   display: block;
   font-weight: lighter;
   font-family: $font-body;
-  font-size: 0.5rem;
+  font-size: 0.6rem;
 }
 
 #nav-top {
+  max-height: 11.1vh;
   display: inline-block;
   text-align: left;
   list-style-type: none;
-  font-size: 0.85rem;
+  font-size: 1rem;
   margin: $body-margin-small 0;
   height: 100%;
 }
 
 #nav-top > * {
-  padding: $body-margin-small $body-margin-small $body-margin-small 0;
+  padding: $body-margin-small/2 $body-margin-small/2 $body-margin-small/2 0;
 }
 
 /* Media */
