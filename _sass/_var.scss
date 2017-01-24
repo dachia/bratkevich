@@ -9,8 +9,8 @@ $font-body: 'Domine', serif;
 $font-size-min: 15px;
 $font-size: 19px;
 
-$body-max-width: 45em;
-$body-margin-left: 15em;
+$body-max-width: 50em;
+$body-margin-left: $body-max-width / 3;
 $body-margin-right: 3.5em;
 $body-margin-big: 1em;
 $body-margin-small: 0.4em;

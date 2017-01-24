@@ -12,7 +12,7 @@ body {
   font-feature-settings: "liga" 1;
   width: 100%;
   min-height: 100%;
-  max-width: 45em;
+  max-width: 50em;
   color: #1E2022;
   overflow-y: scroll;
   position: relative;
@@ -24,7 +24,7 @@ body, p {
 
 body > * {
   font-size: 100%;
-  margin-left: 15em;
+  margin-left: 16.66667em;
   margin-right: 3.5em; }
 
 header {
@@ -36,7 +36,7 @@ article > header {
 p {
   margin-bottom: 1em;
   line-height: 1.35;
-  text-align: justify; }
+  text-align: left; }
 
 h1 > span {
   border-top: 1px solid #1E2022; }
@@ -83,11 +83,11 @@ a:hover {
 .aside-container {
   position: absolute;
   left: 0;
-  width: 14em;
+  width: 15.66667em;
   text-align: right; }
 
 .aside-container > * {
-  max-width: 14em; }
+  max-width: 15.66667em; }
 
 #logo {
   line-height: 1;
