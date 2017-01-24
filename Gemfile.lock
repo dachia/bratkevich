@@ -20,8 +20,12 @@ GEM
     jekyll-hyphenate_filter (0.0.2)
       nokogiri (~> 1.6)
       text-hyphen (~> 1.4)
+    jekyll-last-modified-at (0.3.4)
+      jekyll
     jekyll-sass-converter (1.5.0)
       sass (~> 3.4)
+    jekyll-sitemap (1.0.0)
+      jekyll (~> 3.3)
     jekyll-watch (1.5.0)
       listen (~> 3.0, < 3.1)
     kramdown (1.13.2)
@@ -52,6 +56,8 @@ PLATFORMS
 DEPENDENCIES
   jekyll (= 3.3.1)
   jekyll-hyphenate_filter
+  jekyll-last-modified-at
+  jekyll-sitemap
   minima (~> 2.0)
 
 RUBY VERSION

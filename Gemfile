@@ -20,5 +20,7 @@ gem "minima", "~> 2.0"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-   gem "jekyll-hyphenate_filter"
+   gem 'jekyll-hyphenate_filter'
+   gem 'jekyll-sitemap'
+   gem 'jekyll-last-modified-at'
 end

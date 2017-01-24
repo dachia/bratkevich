@@ -2,7 +2,7 @@
 layout: home
 title: About me
 ---
-![my picture]( {{ "/assets/photo-min.jpg" | relative_url }} 'My picture')
+![en face, greyscale picture of bearded site owner]( {{ "/assets/photo-min.jpg" | relative_url }} 'My picture')
 {: .aside-container}
 
 Hi, My name is Arthur Bartkevich and I am a freelance software developer. I have more than 10 years of experience in the industry and much more than that as a hobby.

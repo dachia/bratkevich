@@ -16,7 +16,7 @@
 title: Bartkevich software development
 email: artur.bartkevic@gmail.com
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://teadriven.com" # the base hostname & protocol for your site, e.g. http://example.com
 encoding: utf-8
 
 # Serve
@@ -25,6 +25,10 @@ host: 192.168.33.10
 # Build settings
 markdown: kramdown
 theme: minima
+gems:
+  - jekyll-last-modified-at
+  - jekyll-sitemap
+destination: docs
 exclude:
   - Gemfile
   - Gemfile.lock
