@@ -1,1 +1,1 @@
-Sitemap: http://teadriven.com/sitemap.xml
+Sitemap: http://freelancedeveloper.tech//sitemap.xml
