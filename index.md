@@ -1,6 +1,7 @@
 ---
 layout: home
 title: Freelance developer
+description: Arthur Bartkevich is a generalist, freelance developer with more than 10 years of experience in the industry. Frontend, backend, mobile development, devop work, performance tuning and consulting.
 ---
 
 ![en face, greyscale picture of bearded freelance developer]( {{ "/assets/photo-min.jpg" | relative_url }} 'En face, greyscale picture of bearded freelance developer')

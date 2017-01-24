@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Resume
+description: Artur Bartkevich CV/Resume. Experience and education.
 ---
 My name is Arthur Bartkevich and I am a freelance software developer. I have more than 10 years of experience in the industry and much more than that as a hobby.
 
