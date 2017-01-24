@@ -1,1 +1,1 @@
-Sitemap: http://freelancedeveloper.tech//sitemap.xml
+Sitemap: http://freelancedeveloper.tech/sitemap.xml
