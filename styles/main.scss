@@ -13,7 +13,7 @@ html {
 }
 
 body {
-  margin: 0 auto;
+  margin: 0 auto $body-margin-right auto;
   text-rendering: optimizeLegibility;
   font-feature-settings: "liga" 1;
   width: 100%;
@@ -26,7 +26,7 @@ body {
   z-index: -10000;
 }
 
-body, p {
+* {
   font-family: $font-body;
 }
 
@@ -56,6 +56,7 @@ h1 > span {
 
 h1, h1 > span {
   padding-top: $body-margin-big;
+  font-family: $font-heading;
 }
 
 h1, h2, h3, h4, h5 {
@@ -92,15 +93,62 @@ h2 {
 
 a {
   color: $color-medium;
+  font-weight: lighter;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 0.85em;
+  font-size: 0.8em;
   letter-spacing: 0.05em;
   padding: $body-margin-small 0;
 }
 
+article li {
+  list-style: none;
+  padding: $list-padding-vertical/2 0 $list-padding-vertical/2 $list-padding-left;
+  margin: 0 0 0 $body-margin-big;
+}
+
+article li:before {
+  content: "\2192";
+  color: $color-medium;
+  font-size: 1.1em;
+  font-weight: bolder;
+  margin: -0.1em 0 0 (-$list-padding-left);
+  float: left;
+}
+
+article ul + p {
+  margin-top: $heading-paragraph-margin;
+}
+
 a:hover {
   text-decoration: underline;
+}
+
+input, textarea, form, button {
+  font-size: 1em;
+  color: $color-dark;
+  box-sizing: border-box;
+  width: 100%;
+  display: block;
+}
+textarea {
+  height: 10em;
+}
+
+form {
+  padding: 0 $body-margin-big;
+}
+
+input, textarea, button {
+  border: 1px solid $color-light;
+  padding: $body-margin-small;
+  margin: $body-margin-big 0;
+}
+
+button {
+  background-color: $color-verylight;
+  color: $color-medium;
+  text-transform: uppercase;
 }
 
 .aside-container {
@@ -138,7 +186,7 @@ a:hover {
   display: block;
   font-weight: lighter;
   font-family: $font-body;
-  font-size: 0.5rem;
+  font-size: 0.55rem;
 }
 
 #nav-top {

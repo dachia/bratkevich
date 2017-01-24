@@ -7,7 +7,7 @@ html {
   height: 100%; }
 
 body {
-  margin: 0 auto;
+  margin: 0 auto 3.5em auto;
   text-rendering: optimizeLegibility;
   font-feature-settings: "liga" 1;
   width: 100%;
@@ -19,7 +19,7 @@ body {
   font-feature-settings: 'kern' 1;
   z-index: -10000; }
 
-body, p {
+* {
   font-family: "Domine", serif; }
 
 body > * {
@@ -42,7 +42,8 @@ h1 > span {
   border-top: 1px solid #1E2022; }
 
 h1, h1 > span {
-  padding-top: 1em; }
+  padding-top: 1em;
+  font-family: "Oswald", sans-serif; }
 
 h1, h2, h3, h4, h5 {
   font-family: "Oswald", sans-serif;
@@ -71,14 +72,54 @@ h2 {
 
 a {
   color: #52616B;
+  font-weight: lighter;
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 0.85em;
+  font-size: 0.8em;
   letter-spacing: 0.05em;
   padding: 0.4em 0; }
 
+article li {
+  list-style: none;
+  padding: 0.5em 0 0.5em 2em;
+  margin: 0 0 0 1em; }
+
+article li:before {
+  content: "\2192";
+  color: #52616B;
+  font-size: 1.1em;
+  font-weight: bolder;
+  margin: -0.1em 0 0 -2em;
+  float: left; }
+
+article ul + p {
+  margin-top: 2rem; }
+
 a:hover {
   text-decoration: underline; }
+
+input, textarea, form, button {
+  font-size: 1em;
+  color: #1E2022;
+  box-sizing: border-box;
+  width: 100%;
+  display: block; }
+
+textarea {
+  height: 10em; }
+
+form {
+  padding: 0 1em; }
+
+input, textarea, button {
+  border: 1px solid #C9D6DF;
+  padding: 0.4em;
+  margin: 1em 0; }
+
+button {
+  background-color: #F0F5F9;
+  color: #52616B;
+  text-transform: uppercase; }
 
 .aside-container {
   position: absolute;
@@ -111,7 +152,7 @@ a:hover {
   display: block;
   font-weight: lighter;
   font-family: "Domine", serif;
-  font-size: 0.5rem; }
+  font-size: 0.55rem; }
 
 #nav-top {
   max-height: 11.1vh;
