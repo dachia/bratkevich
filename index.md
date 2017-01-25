@@ -1,6 +1,7 @@
 ---
 layout: home
-title: Hire me
+title: Freelance developer for hire
+menu: Hire me
 description: Arthur Bartkevich is a generalist, freelance developer with more than 10 years of experience in the industry. Frontend, backend, mobile development, devop work, performance tuning and consulting. Hire me!
 ---
 
